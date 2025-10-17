@@ -1,5 +1,4 @@
 import { SiGithub, SiX, SiLinkedin, SiInstagram } from 'react-icons/si';
-import ravtoLogo from '@assets/generated_images/Ravto_logo_design_ddcec535.png';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -9,8 +8,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid md:grid-cols-4 gap-12 mb-8">
           <div className="md:col-span-2">
-            <div className="flex items-center gap-3 mb-4">
-              <img src={ravtoLogo} alt="Ravto" className="h-10 w-10" />
+            <div className="mb-4">
               <span className="font-heading font-bold text-2xl gradient-text">RAVTO</span>
             </div>
             <p className="text-muted-foreground leading-relaxed mb-6">

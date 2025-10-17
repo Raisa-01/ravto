@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
-import ravtoLogo from '@assets/generated_images/Ravto_logo_design_ddcec535.png';
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -31,8 +30,7 @@ export default function Header() {
     >
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between gap-4">
-          <div className="flex items-center gap-3">
-            <img src={ravtoLogo} alt="Ravto" className="h-10 w-10" />
+          <div className="flex items-center">
             <span className="font-heading font-bold text-2xl gradient-text">RAVTO</span>
           </div>
 
