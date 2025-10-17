@@ -54,22 +54,22 @@ export default function Footer() {
             <h4 className="font-heading font-semibold mb-4">Services</h4>
             <ul className="space-y-3">
               <li>
-                <a href="#services" className="text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-website">
+                <a href="/services" className="text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-website">
                   Website Design
                 </a>
               </li>
               <li>
-                <a href="#services" className="text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-app">
+                <a href="/services" className="text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-app">
                   App Development
                 </a>
               </li>
               <li>
-                <a href="#services" className="text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-ui">
+                <a href="/services" className="text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-ui">
                   UI Mockups
                 </a>
               </li>
               <li>
-                <a href="#services" className="text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-branding">
+                <a href="/services" className="text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-branding">
                   Branding
                 </a>
               </li>
@@ -80,22 +80,22 @@ export default function Footer() {
             <h4 className="font-heading font-semibold mb-4">Company</h4>
             <ul className="space-y-3">
               <li>
-                <a href="#about" className="text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-about">
+                <a href="/about" className="text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-about">
                   About Us
                 </a>
               </li>
               <li>
-                <a href="#contact" className="text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-contact">
+                <a href="/contact" className="text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-contact">
                   Contact
                 </a>
               </li>
               <li>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-privacy">
+                <a href="/privacy" className="text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-privacy">
                   Privacy Policy
                 </a>
               </li>
               <li>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-terms">
+                <a href="/terms" className="text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-terms">
                   Terms of Service
                 </a>
               </li>
