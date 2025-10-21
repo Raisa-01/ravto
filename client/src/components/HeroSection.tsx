@@ -27,18 +27,16 @@ export default function HeroSection() {
         <div className="absolute bottom-32 left-1/4 w-36 h-36 bg-chart-3/20 rounded-full blur-3xl animate-float" />
       </div>
 
-      <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
-        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 mb-8 animate-scale-in">
-          <Sparkles className="w-4 h-4 text-primary" />
-          <span className="text-sm font-medium text-primary">Youth-Focused Innovation</span>
-        </div>
+  <div className="relative z-10 max-w-4xl mx-auto px-6 text-center pt-24">
+        {/* Badge removed per request */}
 
         <h1 className="font-heading font-bold text-5xl md:text-7xl lg:text-8xl mb-6 tracking-tight animate-fade-in-up">
-          Building the <span className="gradient-text">Future</span> of Digital
+          We design and build digital products that <span className="gradient-text">perform</span>
         </h1>
+  {/* Subtitle removed per user request */}
 
         <p className="text-lg md:text-xl text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
-          We're Ravto, a modern software agency crafting stunning websites, powerful apps, and creative designs that bring your vision to life.
+          Ravto partners with teams to create user-centered websites and apps — thoughtful design, reliable engineering, and measurable outcomes.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
@@ -48,7 +46,7 @@ export default function HeroSection() {
             className="text-lg px-8 group"
             data-testid="button-cta-hero"
           >
-            Let's Build Together
+            Get a Quote
             <Sparkles className="ml-2 w-4 h-4 group-hover:rotate-12 transition-transform" />
           </Button>
           <Button
@@ -61,7 +59,7 @@ export default function HeroSection() {
             className="text-lg px-8"
             data-testid="button-view-services"
           >
-            View Services
+            Our Services
           </Button>
         </div>
 
